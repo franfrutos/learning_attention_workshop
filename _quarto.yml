@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Learning and Attention Workshop"
+  favicon: "images/icon.jpeg"
+  search: false
+  navbar:
+    left:
+      - href: index.qmd#seminario
+        text: About
+      - href: index.qmd#speakers
+        text: Talks
+      - href: index.qmd#inscripcion
+        text: Registration
+      - href: index.qmd#faculty
+        text: Faculty
+  page-footer:  
+    left: >-
+      &#169; 2025, Francisco Garre-Frutos
+    right: >-
+      <span class="faux-block">Made with {{< fa brands r-project >}}, ChatGPT, and [Quarto](https://quarto.org/)</span><br>
+      <span class="faux-block">[View the source at {{< fa brands github >}} GitHub](https://github.com/franfrutos/learning_attention_workshop)</span>
+      
+
+format:
+  html:
+    theme:
+      light: [journal, styles.scss]
+      dark: [journal, styles-dark.scss]
+    toggle:
+      icon: "circle-half"
+      placement: "navbar"
+    toc: false
+    smooth-scroll: true
+    page-layout: article
+    grid:
+      margin-width: 320px 
+      
+filters:
+  - fontawesome
+  - academicons

@@ -1,0 +1,547 @@
+/*-- scss:rules --*/
+
+/* ================================= */
+/* Fuente general + título en home   */
+/* ================================= */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #0f1419;
+  color: #f1f3f5;
+}
+
+/* Ocultar el bloque de título estándar SOLO en la home */
+.home-page .quarto-title-block {
+  display: none;
+}
+
+/* Ocultar metadatos bajo el título en todo el sitio */
+.quarto-title-meta.column-page {
+  display: none !important;
+}
+
+/* ================================= */
+/* HERO (cabecera)                   */
+/* ================================= */
+
+.hero-seminario {
+  padding: 4.5rem 0 4rem;
+  background: linear-gradient(135deg, #131f2c, #26374a);
+  color: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 22px 48px rgba(0, 0, 0, 0.7);
+  margin-bottom: 2.7rem;
+}
+
+.hero-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.hero-title {
+  font-size: clamp(2.3rem, 3.1vw, 3rem);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.98);
+}
+
+/* Kicker pequeño y discreto */
+.hero-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  opacity: 0.85;
+  margin-bottom: 0.7rem;
+}
+
+/* Subtítulo (fecha, hora, sitio) */
+.hero-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1.6rem;
+}
+
+/* Botones */
+.hero-buttons .btn {
+  margin-right: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-buttons .btn-primary {
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.75);
+}
+
+.hero-buttons .btn-outline-light {
+  border-width: 1.5px;
+  opacity: 0.96;
+  color: #f9fafb;
+  border-color: rgba(249, 250, 251, 0.8);
+}
+
+/* ================================= */
+/* Secciones (About / Speakers / Reg)*/
+/* ================================= */
+
+/* Encabezado de nivel 2 con línea */
+main.content h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: #f9fafb;
+}
+
+main.content h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin-top: 0.35rem;
+  background: #f28f8c;   /* versión clarita del primary */
+}
+
+/* Primera sección: About the workshop — texto normal */
+.about-workshop {
+  max-width: 900px;
+  margin: 1rem auto 2.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e5e7eb;
+}
+
+/* ================================= */
+/* Intro speakers                    */
+/* ================================= */
+
+.speakers-intro {
+  margin-bottom: 1.5rem;
+  color: #c0c4cc;
+}
+
+/* ================================= */
+/* LISTING grid de charlas           */
+/* ================================= */
+
+/* Contenedor del grid */
+.list.grid.quarto-listing-cols-2 {
+  max-width: 960px;
+  margin: 0 auto 2.5rem;
+  row-gap: 1.5rem;
+  column-gap: 1.5rem;
+}
+
+/* Tarjeta de cada charla */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.1rem 1.4rem;
+
+  border-radius: 0.9rem;
+  background: #181b1f;
+  border: 1px solid #323843;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left:hover {
+  transform: translateY(-2px);
+  background-color: #20242b;
+  border-color: #f28f8c;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.85);
+}
+
+/* Columna de imagen */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .card-img-top {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  flex: 0 0 130px;
+}
+
+/* Avatar circular en listing */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .card-img-top img {
+  width: 130px;
+  height: 130px;
+  border-radius: 999px;
+  object-fit: cover;
+  display: block;
+
+  padding: 2px;
+  background: #181b1f;
+  border: 1px solid rgba(242, 143, 140, 0.75);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.85);
+}
+
+/* Un poco más de énfasis al hacer hover */
+.list.grid.quarto-listing-cols-2
+  .quarto-grid-item.card-left:hover
+  .card-img-top img {
+  border-color: rgba(242, 143, 140, 1);
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.95);
+}
+
+/* Columna de texto */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .card-body {
+  flex: 1 1 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* Título de la charla en la card */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .listing-title {
+  font-size: 1rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+  color: #f9fafb;
+}
+
+/* Categorías en listing (pill) */
+.listing-categories .listing-category {
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  background: #20242b;
+  color: #f5e5e4;
+}
+
+/* Descripción (nombre + abstract corto) */
+.list.grid.quarto-listing-cols-2
+  .quarto-grid-item.card-left
+  .listing-description {
+  font-size: 0.9rem;
+  color: #d7d7dd;
+  line-height: 1.4;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Attribution (author) más discreto */
+.card-attribution.card-text-small.start {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: #aeb2c0;
+}
+
+/* ================================= */
+/* Inscripción                        */
+/* ================================= */
+
+.form-embed iframe {
+  border-radius: 0.5rem;
+  background-color: #0f1419;
+}
+
+/* ================================= */
+/* Footer simple (si lo usas)        */
+/* ================================= */
+
+.site-footer {
+  margin-top: 3rem;
+  padding: 1.25rem 0;
+  background: #111827;
+  color: #e5e7eb;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* ====================================== */
+/* Páginas de charla: ancho + speaker     */
+/* ====================================== */
+
+.talk-page #quarto-document-content,
+.talk-page main.content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contenedor del bloque de speaker card al final del post */
+.talk-layout {
+  max-width: 900px;
+  margin: 2.5rem auto 3rem;
+}
+
+/* Speaker card (journal) */
+.speaker-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1.5rem 1.75rem;
+  border-radius: 1rem;
+  background: #181b1f;
+  border: 1px solid #323843;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.8);
+}
+
+/* Foto del speaker: avatar con acento journal */
+.speaker-card img {
+  width: 130px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 999px;
+  display: block;
+  flex-shrink: 0;
+
+  padding: 4px;
+  background: #181b1f;
+  border: 2px solid rgba(242, 143, 140, 0.85);
+  box-shadow:
+    0 0 0 4px rgba(242, 143, 140, 0.25),
+    0 14px 30px rgba(0, 0, 0, 0.9);
+}
+
+.quarto-dark .speaker-text {
+  font-size: 0.96rem;
+  line-height: 1.65;
+  color: #e4e6ef;
+}
+
+.quarto-dark .speaker-text strong {
+  font-size: 1.04rem;
+  color: #ffffff;
+}
+
+.speaker-label {
+  display: inline-block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #f28f8c;
+  margin-bottom: 0.35rem;
+}
+
+.speaker-affiliation {
+  display: block;
+  font-size: 0.9rem;
+  color: #c2c2cc;
+  margin-bottom: 0.4rem;
+}
+
+/* ========================================= */
+/*  ABSTRACT en modo oscuro                  */
+/* ========================================= */
+
+.description {
+  position: relative;
+
+  max-width: 980px;
+  margin: 1.6rem auto 2.6rem;
+
+  padding: 1.8rem 2rem;
+  border-radius: 1rem;
+  border: 1px solid #343a46;
+  background: #15181e;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.75);
+
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: #f2f3f7;
+}
+
+/* separación entre párrafos también en oscuro */
+.description > p + p {
+  margin-top: 0.9rem;
+}
+
+/* Etiqueta "ABSTRACT" en modo oscuro */
+.description::before {
+  content: "ABSTRACT";
+  position: absolute;
+  top: -0.95rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 0.18rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid #343a46;
+  background: #0f1419;
+
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: #c0c4cc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+}
+
+
+.description > p {
+  margin: 0;
+}
+
+/* ========================= */
+/* Faculty cards             */
+/* ========================= */
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2.5rem 0 0;
+}
+
+.faculty-card {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+
+  padding: 1.2rem 1.4rem;
+  border-radius: 0.9rem;
+  border: 1px solid #323843;
+  background: #181b1f;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.8);
+}
+
+/* Foto redonda tipo avatar */
+.faculty-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 999px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+
+  padding: 2px;
+  background: #181b1f;
+  border: 1px solid rgba(242, 143, 140, 0.85);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.85);
+}
+
+/* Columna derecha: texto + iconos */
+.faculty-info {
+  flex: 1 1 auto;
+  color: #f1f3f5;
+}
+
+.faculty-card strong,
+.faculty-card b {
+  font-size: 1rem;
+}
+
+.faculty-affiliation {
+  display: block;
+  font-size: 0.9rem;
+  color: #c2c2cc;
+  margin-top: 0.1rem;
+}
+
+/* Iconos (Scholar, ORCID, Bluesky, web) */
+.faculty-links {
+  margin-top: 0.55rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.faculty-links a.faculty-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  border: 1px solid #343a46;
+  background: #20242b;
+  text-decoration: none;
+  font-size: 1.05rem;
+  color: #e5e5f0;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    transform 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.faculty-links a.faculty-icon:hover {
+  background: #2b3038;
+  color: #f28f8c;
+  border-color: #f28f8c;
+  transform: translateY(-1px);
+}
+
+
+/* ========================= */
+/* Footer en modo oscuro     */
+/* ========================= */
+
+footer,
+footer.footer,
+.nav-footer,
+.page-footer {
+  background-color: #111827 !important;  /* gris casi negro */
+  color: #e5e7eb !important;             /* texto clarito */
+  
+  /* Línea de separación visible con el contenido */
+  border-top: 1px solid #374151;         /* gris más claro para que se note */
+  
+  /* opcional: una sombra muy suave hacia arriba */
+  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Links dentro del footer */
+footer a,
+footer.footer a,
+.nav-footer a,
+.page-footer a {
+  color: #f28f8c;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer.footer a:hover,
+.nav-footer a:hover,
+.page-footer a:hover {
+  color: #fecaca;
+  text-decoration: underline;
+}
+
+/* Contenedor del formulario en tema oscuro */
+.form-embed {
+  max-width: 900px;
+  margin: 2rem auto 0;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  background: #0f1419;         /* mismo fondo que el resto */
+  border: 1px solid #343a46;   /* borde gris */
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.75);
+}
+
+/* El iframe en sí, sin marcos raros */
+.form-embed iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  border-radius: 0.75rem;
+}
+
+.form-embed iframe {
+  filter: invert(0.9) hue-rotate(180deg);
+}

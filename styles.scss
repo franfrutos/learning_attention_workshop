@@ -1,0 +1,659 @@
+/*-- scss:rules --*/
+
+/* ================================= */
+/* Fuente general + título en home   */
+/* ================================= */
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Ocultar el bloque de título estándar SOLO en la home */
+.home-page .quarto-title-block {
+  display: none;
+}
+
+/* Ocultar metadatos bajo el título en todo el sitio */
+.quarto-title-meta.column-page {
+  display: none !important;
+}
+
+/* ================================= */
+/* HERO (cabecera)                   */
+/* ================================= */
+
+.hero-seminario {
+  padding: 4.5rem 0 4rem;
+  background: linear-gradient(135deg, #0b7285, #1864ab);
+  color: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+  margin-bottom: 2.7rem;
+}
+
+.hero-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.hero-title {
+  font-size: clamp(2.3rem, 3.1vw, 3rem);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.96);
+}
+
+/* Kicker pequeño y discreto */
+.hero-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  opacity: 0.85;
+  margin-bottom: 0.7rem;
+}
+
+/* Subtítulo (fecha, hora, sitio) */
+.hero-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 0.92;
+  margin-bottom: 1.6rem;
+}
+
+/* Botones */
+.hero-buttons .btn {
+  margin-right: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-buttons .btn-primary {
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+}
+
+.hero-buttons .btn-outline-light {
+  border-width: 1.5px;
+  opacity: 0.96;
+}
+
+/* ================================= */
+/* Secciones (About / Speakers / Reg)*/
+/* ================================= */
+
+/* Encabezado de nivel 2 con línea */
+main.content h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+main.content h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin-top: 0.35rem;
+  background: #eb6864;   /* color journal */
+}
+
+/* Primera sección: About the workshop — texto normal */
+.about-workshop {
+  max-width: 900px;
+  margin: 1rem auto 2.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* ================================= */
+/* Intro speakers                    */
+/* ================================= */
+
+.speakers-intro {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* ================================= */
+/* LISTING grid de charlas           */
+/* ================================= */
+
+/* Contenedor del grid */
+.list.grid.quarto-listing-cols-2 {
+  max-width: 960px;
+  margin: 0 auto 2.5rem;
+  row-gap: 1.5rem;
+  column-gap: 1.5rem;
+}
+
+/* Tarjeta de cada charla */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding: 1.1rem 1.4rem;
+
+  border-radius: 0.9rem;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease,
+    background-color 0.15s ease;
+}
+
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left:hover {
+  transform: translateY(-2px);
+  background-color: #fffaf8;
+  border-color: rgba(235, 104, 100, 0.45);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.10);
+}
+
+/* Columna de imagen */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .card-img-top {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  flex: 0 0 130px;
+}
+
+/* Avatar circular en listing */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .card-img-top img {
+  width: 130px;
+  height: 130px;
+  border-radius: 999px;
+  object-fit: cover;
+  display: block;
+
+  padding: 2px;
+  background: #fff;
+  border: 1px solid rgba(235, 104, 100, 0.45);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.16);
+}
+
+/* Un poco más de énfasis al hacer hover */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left:hover .card-img-top img {
+  border-color: rgba(235, 104, 100, 0.70);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+/* Columna de texto */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .card-body {
+  flex: 1 1 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* Título de la charla en la card */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .listing-title {
+  font-size: 1rem;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+}
+
+/* Categorías en listing (pill) */
+.listing-categories .listing-category {
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+/* Descripción (nombre + abstract corto) */
+.list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .listing-description {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Attribution (author) más discreto */
+.card-attribution.card-text-small.start {
+  margin-top: 0.25rem;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+/* ================================= */
+/* Inscripción                        */
+/* ================================= */
+
+.form-embed iframe {
+  border-radius: 0.5rem;
+}
+
+/* ================================= */
+/* Footer simple (si lo usas)        */
+/* ================================= */
+
+.site-footer {
+  margin-top: 3rem;
+  padding: 1.25rem 0;
+  background: #0b7285;
+  color: #f8f9fa;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* ====================================== */
+/* Páginas de charla: ancho + speaker     */
+/* ====================================== */
+
+.talk-page #quarto-document-content,
+.talk-page main.content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contenedor del bloque de speaker card al final del post */
+.talk-layout {
+  max-width: 900px;
+  margin: 2.5rem auto 3rem;
+}
+
+/* Speaker card (journal) */
+.speaker-card {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1.5rem 1.75rem;
+  border-radius: 1rem;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+/* Foto del speaker: avatar con acento journal (#eb6864) */
+.speaker-card img {
+  width: 130px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 999px;
+  display: block;
+  flex-shrink: 0;
+
+  padding: 4px;
+  background: #ffffff;
+  border: 2px solid rgba(235, 104, 100, 0.55);
+  box-shadow:
+    0 0 0 4px rgba(235, 104, 100, 0.10),
+    0 12px 25px rgba(0, 0, 0, 0.18);
+}
+
+/* Texto dentro de la speaker card */
+.speaker-text {
+  font-size: 0.96rem;        /* ligeramente más pequeño que el cuerpo general */
+  line-height: 1.65;
+  color: #444;
+}
+
+/* Nombre del ponente un pelín destacado pero sin pasarse */
+.speaker-text strong {
+  font-size: 1.04rem;
+}
+
+
+.speaker-label {
+  display: inline-block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #eb6864;
+  margin-bottom: 0.35rem;
+}
+
+.speaker-affiliation {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.4rem;
+}
+
+/* ========================================= */
+/*  ABSTRACT bajo el título de las charlas   */
+/* ========================================= */
+
+.description {
+  position: relative;
+
+  max-width: 980px;                 /* misma sensación de ancho que la speaker card */
+  margin: 1.6rem auto 2.6rem;
+
+  padding: 1.8rem 2rem;
+  border-radius: 1rem;
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.04);
+
+  font-size: 1.02rem;               /* un pelín más grande que antes */
+  line-height: 1.7;
+  color: #333;
+}
+
+/* espacio entre párrafos dentro del abstract */
+.description > p + p {
+  margin-top: 0.9rem;
+}
+
+/* Etiqueta "ABSTRACT" más visible y cuidada */
+.description::before {
+  content: "ABSTRACT";
+  position: absolute;
+  top: -0.95rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 0.18rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid #e3e3e3;
+  background: #ffffff;
+
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.20em;
+  text-transform: uppercase;
+  color: #888;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.description > p {
+  margin: 0;
+}
+
+/* ========================= */
+/* Faculty cards             */
+/* ========================= */
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2.5rem 0 0;
+}
+
+.faculty-card {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+
+  padding: 1.2rem 1.4rem;
+  border-radius: 0.9rem;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.06);
+}
+
+/* Foto redonda tipo avatar */
+.faculty-photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 999px;
+  object-fit: cover;
+  display: block;
+  flex-shrink: 0;
+
+  padding: 2px;
+  background: #fff;
+  border: 1px solid rgba(235, 104, 100, 0.45);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16);
+}
+
+/* Columna derecha: texto + iconos */
+.faculty-info {
+  flex: 1 1 auto;
+}
+
+.faculty-card strong,
+.faculty-card b {
+  font-size: 1rem;
+}
+
+.faculty-affiliation {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.1rem;
+}
+
+/* Iconos (Scholar, ORCID, Bluesky, web) */
+.faculty-links {
+  margin-top: 0.55rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.faculty-links a.faculty-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  border: 1px solid #e1e1e1;
+  background: #fafafa;
+  text-decoration: none;
+  font-size: 1.05rem;
+  color: #555;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    transform 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.faculty-links a.faculty-icon:hover {
+  background: #fff2f1;
+  color: #eb6864;
+  border-color: rgba(235, 104, 100, 0.7);
+  transform: translateY(-1px);
+}
+
+/* ====================================== */
+/*           MODO OSCURO (journal)       */
+/* ====================================== */
+
+body.quarto-dark {
+  background-color: #0f1419;
+  color: #f5f5f7;
+}
+
+/* Hero en oscuro */
+body.quarto-dark .hero-seminario {
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6);
+}
+
+body.quarto-dark .hero-title {
+  color: rgba(255, 255, 255, 0.96);
+}
+
+body.quarto-dark .hero-subtitle {
+  color: rgba(255, 255, 255, 0.90);
+}
+
+/* Texto general */
+body.quarto-dark main.content {
+  color: #f1f3f5;
+}
+
+body.quarto-dark .about-workshop {
+  color: #f1f3f5;
+}
+
+/* Encabezados y subrayado */
+body.quarto-dark main.content h2::after {
+  background: #f28f8c;  /* versión más clara del journal primary */
+}
+
+/* Listing de charlas en oscuro */
+body.quarto-dark .list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left {
+  background: #181b1f;
+  border-color: #323843;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+}
+
+body.quarto-dark .list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left:hover {
+  background-color: #20242b;
+  border-color: #f28f8c;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75);
+}
+
+/* Avatar en listing (mantiene aro claro) */
+body.quarto-dark .list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .card-img-top img {
+  background: #181b1f;
+  border-color: rgba(242, 143, 140, 0.8);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.8);
+}
+
+/* Texto de la card en oscuro */
+body.quarto-dark .list.grid.quarto-listing-cols-2 .quarto-grid-item.card-left .listing-description {
+  color: #d7d7dd;
+}
+
+body.quarto-dark .card-attribution.card-text-small.start {
+  color: #b0b0b8;
+}
+
+/* Speaker card en oscuro */
+body.quarto-dark .speaker-card {
+  background: #181b1f;
+  border-color: #323843;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.7);
+}
+
+body.quarto-dark .speaker-card img {
+  background: #181b1f;
+  border-color: rgba(242, 143, 140, 0.75);
+  box-shadow:
+    0 0 0 4px rgba(242, 143, 140, 0.18),
+    0 14px 30px rgba(0, 0, 0, 0.85);
+}
+
+body.quarto-dark .speaker-affiliation {
+  color: #c2c2cc;
+}
+
+/* Caja de ABSTRACT en oscuro */
+body.quarto-dark .description {
+  background: #15181e;
+  border-color: #343a46;
+  color: #f1f3f5;
+}
+
+body.quarto-dark .description::before {
+  background: #0f1419;
+  border-color: #343a46;
+  color: #c0c4cc;
+}
+
+/* Faculty cards en oscuro */
+body.quarto-dark .faculty-card {
+  background: #181b1f;
+  border-color: #323843;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.7);
+}
+
+body.quarto-dark .faculty-photo {
+  background: #181b1f;
+  border-color: rgba(242, 143, 140, 0.75);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.8);
+}
+
+body.quarto-dark .faculty-affiliation {
+  color: #c2c2cc;
+}
+
+body.quarto-dark .faculty-links a.faculty-icon {
+  background: #20242b;
+  border-color: #343a46;
+  color: #e5e5f0;
+}
+
+body.quarto-dark .faculty-links a.faculty-icon:hover {
+  background: #2b3038;
+  border-color: #f28f8c;
+  color: #f28f8c;
+}
+
+/* Form embed en oscuro */
+body.quarto-dark .form-embed iframe {
+  border-radius: 0.5rem;
+  background-color: #0f1419;
+}
+
+/* =============================== */
+/* Footer versión LIGHT (journal) */
+/* =============================== */
+
+footer,
+footer.footer,
+.nav-footer,
+.page-footer {
+  background-color: #ffffff !important;   /* fondo blanco limpio */
+  color: #495057 !important;              /* gris texto journal */
+
+  /* línea de separación con el contenido */
+  border-top: 1px solid #dee2e6;          /* gris clarito bootstrap/journal */
+
+  /* sombra suave hacia arriba */
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* Links dentro del footer (light) */
+footer a,
+footer.footer a,
+.nav-footer a,
+.page-footer a {
+  color: #eb6864;                         /* primary de journal */
+  text-decoration: none;
+}
+
+footer a:hover,
+footer.footer a:hover,
+.nav-footer a:hover,
+.page-footer a:hover {
+  color: #c45451;                         /* un poco más oscuro al hover */
+  text-decoration: underline;
+}
+
+.form-embed {
+  max-width: 900px;
+  margin: 2rem auto 0;
+  padding: 1.6rem;
+  border-radius: 1rem;
+  background: #ffffff;              /* fondo blanco limpio */
+  border: 1px solid #e1e1e1;        /* gris clarito */
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);  /* sombra suave hacia arriba */
+}
+
+/* El iframe en sí, sin marcos raros */
+.form-embed iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  border-radius: 0.75rem;
+}

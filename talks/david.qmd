@@ -1,0 +1,36 @@
+---
+title: "Lingering habits"
+image: "../images/david.png"
+author: "Dr. David Luque"
+description: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur pellentesque dolor, ut rutrum quam tincidunt id. Aenean eget mollis elit, tincidunt bibendum arcu. Mauris vulputate suscipit ex, sollicitudin vulputate justo euismod mollis. Mauris finibus ex eu magna finibus placerat. In porttitor dui justo, nec elementum ex pulvinar id. Sed malesuada est eu scelerisque imperdiet. Morbi sit amet mauris at ligula commodo mollis ut sed nibh. Morbi sem velit, gravida eget ipsum sed, varius finibus purus. Sed fermentum ac diam sed condimentum. Curabitur pretium tristique nisl, non posuere purus dapibus vel. Vestibulum porta risus non aliquam dictum. Etiam et luctus lacus, ut rhoncus elit. Curabitur cursus urna ut rhoncus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis orci ac ante aliquet pellentesque.
+speaker-name: "Dr. David Luque"
+categories: ["Learning", "Attention"]
+
+
+format:
+  html:
+    page-layout: full      
+class: talk-page           
+---
+
+:::::: talk-layout
+::::: speaker-card
+![](../images/david.png)
+
+:::: speaker-text
+[Speaker]{.speaker-label}\
+**Dr. David Luque**\
+[University of Málaga]{.speaker-affiliation}
+
+TODO: Short bio for David (3–5 sentences).
+
+::: faculty-links
+[{{< ai google-scholar >}}](https://scholar.google.com/citations?user=u1U26xQAAAAJ&hl=es){.faculty-icon target="_blank"}
+[{{< ai orcid >}}](https://orcid.org/0000-0002-3457-9204){.faculty-icon target="_blank"}
+[{{< fa brands bluesky >}}](https://bsky.app/profile/davluque.bsky.social){.faculty-icon target="_blank"}
+[{{< fa solid globe >}}](https://davluque.wordpress.com/){.faculty-icon target="_blank"}
+:::
+::::
+:::::
+::::::

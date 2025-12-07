@@ -1,0 +1,136 @@
+---
+title: "Workshop on Learning and Attention"
+page-layout: full
+body-classes: home-page
+
+listing:
+  - id: talks-list
+    contents: talks
+    type: grid
+    fields: [image, title, author, description, categories]
+    sort: "date asc"
+    grid-columns: 2
+    max-description-length: 260
+    sort-ui: false
+    filter-ui: false
+---
+
+
+::: {.hero-seminario}
+::: {.hero-inner .container}
+
+# Workshop on Learning and Attention {.hero-title}
+
+<span class="hero-kicker">Advanced workshop</span>
+
+<p class="hero-subtitle">
+  17 December 2025 · 15:00–18:00 · Conference room 1 |   <a href="https://www.google.com/maps/search/?api=1&query=Mind,+Brain,+and+Behavior+Research+Center+(CIMCYC)"
+     target="_blank" rel="noopener">
+    Mind, Brain, and Behavior Research center (CIMCYC)
+  </a>
+</p>
+
+<p class="hero-buttons">
+  [Register](#inscripcion){.btn .btn-primary .btn-lg}
+  [View talks](#speakers){.btn .btn-outline-light .btn-lg}
+</p>
+
+:::
+:::
+
+
+
+## About {#seminario}
+
+::: {.about-workshop}
+
+This advanced workshop offers an afternoon of talks and discussion on how
+**learning and attention** shape human cognition and behavior. The aim is to
+bring together students and researchers interested in these topics and to
+provide an accessible but research-oriented overview of current work in the
+field.
+
+The programme combines
+[several invited talks](#speakers) with a **closing lecture** by
+[Professor Mike Le Pelley](talks/mike.qmd), covering topics such as:
+
+- Learning and attention in humans  
+- Habit formation and goal-directed control  
+- Experimental methods for studying cognitive processes  
+
+The event is **in person**, free of charge, and especially intended for:
+
+- Master’s and PhD students in psychology, cognitive science, and related areas  
+- Early-career researchers interested in attention, learning, and decision making 
+- Anyone curious about experimental and modelling approaches to cognition  
+
+Participants who register via the [registration form](#inscripcion)
+will receive a **certificate of attendance**.
+
+:::
+
+
+## Speakers and talks {#speakers}
+
+::: speakers-intro
+This workshop is structured around several invited talks. Click on each card to see the speaker’s bio and the abstract of their talk.
+:::
+
+::: {#talks-list}
+:::
+
+
+## Registration {#inscripcion}
+
+
+::: form-embed
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeVox_h9f0IvsAlXXfSjyQXNyhHz9yrz6FzPkpr7qtDIZTczg/viewform?embedded=true"
+        width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0">
+
+Loading form…
+
+</iframe>
+:::
+
+
+## Faculty {#faculty}
+
+::: faculty-grid
+
+::: faculty-card
+![](images/faculty-fran.jpeg){.faculty-photo}
+
+<div class="faculty-info">
+
+**Francisco Garre-Frutos**  
+<span class="faculty-affiliation">University of Granada</span>
+
+<div class="faculty-links">
+[{{< ai google-scholar >}}](https://scholar.google.es/citations?user=RWd96bwAAAAJ){.faculty-icon target="_blank"}
+[{{< ai orcid >}}](https://orcid.org/0000-0001-9810-186X){.faculty-icon target="_blank"}
+[{{< fa brands bluesky >}}](https://bsky.app/profile/frangfr.bsky.social){.faculty-icon target="_blank"}
+[{{< fa solid globe >}}](https://franfrutos.github.io){.faculty-icon target="_blank"}
+</div>
+
+</div>
+:::
+
+::: faculty-card
+![](images/faculty-pablo.jpeg){.faculty-photo}
+
+<div class="faculty-info">
+
+**Pablo Solana**  
+<span class="faculty-affiliation">University of Granada</span>
+
+<div class="faculty-links">
+[{{< ai google-scholar >}}](https://scholar.google.es/citations?user=kHFW_0gAAAAJ&hl=es&oi=ao){.faculty-icon target="_blank"}
+[{{< ai orcid >}}](https://orcid.org/0000-0003-3088-3548){.faculty-icon target="_blank"}
+[{{< fa brands bluesky >}}](https://bsky.app/profile/p-solana.bsky.social){.faculty-icon target="_blank"}
+[{{< fa solid globe >}}](https://groundedcognitionlab.weebly.com/pablo-solana.html){.faculty-icon target="_blank"}
+</div>
+
+</div>
+:::
+
+:::
