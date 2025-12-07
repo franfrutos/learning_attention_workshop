@@ -3,8 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Learning and Attention Workshop"
-  favicon: "images/icon.jpeg"
+  favicon: "images/icon.png"
   search: false
   navbar:
     left:
