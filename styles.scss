@@ -339,8 +339,6 @@ main.content h2::after {
   position: relative;
 
   max-width: 980px;                 /* misma sensación de ancho que la speaker card */
-  margin: 1.6rem auto 2.6rem;
-
   padding: 1.8rem 2rem;
   border-radius: 1rem;
   border: 1px solid #e5e5e5;
@@ -355,6 +353,10 @@ main.content h2::after {
 /* espacio entre párrafos dentro del abstract */
 .description > p + p {
   margin-top: 0.9rem;
+}
+
+.quarto-categories {
+  margin-bottom: 1rem;
 }
 
 /* Etiqueta "ABSTRACT" más visible y cuidada */
