@@ -62,7 +62,6 @@ The event is **in person**, free of charge, and especially intended for:
 
 - Master’s and PhD students in psychology, cognitive science, and related areas  
 - Early-career researchers interested in attention, learning, and decision making 
-- Anyone curious about experimental and modelling approaches to cognition  
 
 Participants who register via the [registration form](#inscripcion)
 will receive a **certificate of attendance**.
@@ -93,7 +92,7 @@ Loading form…
 :::
 
 
-## Faculty {#faculty}
+## Organizers {#faculty}
 
 ::: faculty-grid
 
