@@ -1,4 +1,5 @@
 project:
+  title: "Workshop on Learning and Attention"
   type: website
   output-dir: docs
 
