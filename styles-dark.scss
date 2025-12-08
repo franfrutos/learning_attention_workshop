@@ -287,7 +287,7 @@ main.content h2::after {
   margin: 2.5rem auto 3rem;
 }
 
-/* Speaker card (journal) */
+/* Speaker card (modo oscuro) */
 .speaker-card {
   display: flex;
   gap: 1.5rem;
@@ -299,14 +299,17 @@ main.content h2::after {
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.8);
 }
 
-/* Foto del speaker: avatar con acento journal */
+/* Foto del speaker: tamaño fijo, no se encoge con la bio */
 .speaker-card img {
-  width: 1000px;
-  aspect-ratio: 1 / 1;
+  width: 220px;
+  height: 220px;          /* 1:1 */
   object-fit: cover;
   border-radius: 999px;
   display: block;
+
+  flex: 0 0 220px;        /* columna fija en el flex */
   flex-shrink: 0;
+  max-width: none;
 
   padding: 4px;
   background: #181b1f;
@@ -316,12 +319,7 @@ main.content h2::after {
     0 14px 30px rgba(0, 0, 0, 0.9);
 }
 
-@media (max-width: 576px) {
-  .speaker-card img {
-    width: 2000px;
-  }
-}
-
+/* Texto dentro de la speaker card */
 .speaker-text {
   font-size: 0.96rem;
   line-height: 1.65;
@@ -348,6 +346,30 @@ main.content h2::after {
   color: #c2c2cc;
   margin-bottom: 0.4rem;
 }
+
+/* ======= Layout responsive para móviles ======= */
+
+@media (max-width: 768px) {
+  .speaker-card {
+    flex-direction: column;      /* foto arriba, texto debajo */
+    align-items: center;
+    text-align: center;
+  }
+
+  .speaker-text {
+    text-align: left;            /* opcional: mantener texto a la izq */
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .speaker-card img {
+    width: 170px;
+    height: 170px;
+    flex-basis: 170px;
+  }
+}
+
 
 /* ========================================= */
 /*  ABSTRACT en modo oscuro                  */

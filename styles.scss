@@ -285,14 +285,17 @@ main.content h2::after {
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
 }
 
-/* Foto del speaker: avatar con acento journal (#eb6864) */
+/* Foto del speaker: tamaño fijo, no se encoge */
 .speaker-card img {
-  width: 1000px;
-  aspect-ratio: 1 / 1;
+  width: 220px;
+  height: 220px;          /* 1:1 */
   object-fit: cover;
   border-radius: 999px;
   display: block;
+
+  flex: 0 0 220px;        /* columna fija en el flex */
   flex-shrink: 0;
+  max-width: none;
 
   padding: 4px;
   background: #ffffff;
@@ -302,15 +305,9 @@ main.content h2::after {
     0 12px 25px rgba(0, 0, 0, 0.18);
 }
 
-@media (max-width: 576px) {
-  .speaker-card img {
-    width: 2000px;
-  }
-}
-
 /* Texto dentro de la speaker card */
 .speaker-text {
-  font-size: 0.96rem;        /* ligeramente más pequeño que el cuerpo general */
+  font-size: 0.96rem;
   line-height: 1.65;
   color: #444;
 }
@@ -319,7 +316,6 @@ main.content h2::after {
 .speaker-text strong {
   font-size: 1.04rem;
 }
-
 
 .speaker-label {
   display: inline-block;
@@ -335,6 +331,29 @@ main.content h2::after {
   font-size: 0.9rem;
   color: #666;
   margin-bottom: 0.4rem;
+}
+
+/* ======= Layout responsive para móviles ======= */
+
+@media (max-width: 768px) {
+  .speaker-card {
+    flex-direction: column;        /* foto arriba, texto debajo */
+    align-items: center;
+    text-align: center;
+  }
+
+  .speaker-text {
+    text-align: left;              /* opcional: mantener texto alineado a izq */
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .speaker-card img {
+    width: 170px;
+    height: 170px;
+    flex-basis: 170px;
+  }
 }
 
 /* ========================================= */
