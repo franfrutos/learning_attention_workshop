@@ -24,15 +24,13 @@ listing:
 <span class="hero-kicker">Advanced workshop</span>
 
 <p class="hero-subtitle">
-  17 December 2025 · 15:00–18:00 · Conference room 1 |   <a href="https://www.google.com/maps/search/?api=1&query=Mind,+Brain,+and+Behavior+Research+Center+(CIMCYC)"
-     target="_blank" rel="noopener">
-    Mind, Brain, and Behavior Research center (CIMCYC)
-  </a>
+  17 December 2025 · 15:00–18:00 · Conference room 1 |Mind, Brain, and Behavior Research Center (CIMCYC)
 </p>
 
 <p class="hero-buttons">
   [Register](#inscripcion){.btn .btn-primary .btn-lg}
   [View talks](#speakers){.btn .btn-outline-light .btn-lg}
+  [View venue](#venue){.btn .btn-outline-light .btn-lg}
 </p>
 
 :::
@@ -91,6 +89,50 @@ Loading form…
 </iframe>
 :::
 
+## Venue and directions {#venue}
+
+::: venue-wrap
+
+::: venue-map
+<iframe
+  src="https://www.google.com/maps?q=Mind,+Brain,+and+Behavior+Research+Center+(CIMCYC),+Granada&output=embed"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  width="100%" height="320" style="border:0;">
+</iframe>
+:::
+
+::: venue-info
+
+**Mind, Brain, and Behavior Research Center (CIMCYC)**  
+Conference room 1 · University of Granada, Cartuja campus
+
+The workshop will take place at the CIMCYC, on the University of Granada’s
+Cartuja campus. The building is a short bus or taxi ride from the city centre.
+
+**By bus**
+
+- Buses **U1, U2, U3 and 8** will take you directly to the CIMCYC entrance (stop *“Facultad de Farmacia”*).You can board them at any of the stops along these lines ([map here](https://www.transportesrober.com/rutas/itinerarios.htm)).
+
+- A single ticket costs **€1.40** and is valid for **60 minutes**.
+
+**By car**
+
+- You can reach the campus from the ring road (**A-92 / A-44**) that surrounds Granada, which helps avoid city-centre traffic during peak hours.
+
+- Free parking is available on **Cartuja Campus**.
+
+
+If you have questions about the venue or accessibility, feel free to contact the
+workshop [organizers](#faculty).
+
+
+
+:::
+
+:::
+
+
 
 ## Organizers {#faculty}
 
@@ -105,6 +147,7 @@ Loading form…
 <span class="faculty-affiliation">University of Granada</span>
 
 <div class="faculty-links">
+[{{< fa solid envelope >}}](mailto:fgfrutos@ugr.es?subject=Learning%20and%20Attention%20Workshop){.faculty-icon}
 [{{< ai google-scholar >}}](https://scholar.google.es/citations?user=RWd96bwAAAAJ){.faculty-icon target="_blank"}
 [{{< ai orcid >}}](https://orcid.org/0000-0001-9810-186X){.faculty-icon target="_blank"}
 [{{< fa brands bluesky >}}](https://bsky.app/profile/frangfr.bsky.social){.faculty-icon target="_blank"}
@@ -123,6 +166,7 @@ Loading form…
 <span class="faculty-affiliation">University of Granada</span>
 
 <div class="faculty-links">
+[{{< fa solid envelope >}}](mailto:solana@ugr.es?subject=Learning%20and%20Attention%20Workshop){.faculty-icon}
 [{{< ai google-scholar >}}](https://scholar.google.es/citations?user=kHFW_0gAAAAJ&hl=es&oi=ao){.faculty-icon target="_blank"}
 [{{< ai orcid >}}](https://orcid.org/0000-0003-3088-3548){.faculty-icon target="_blank"}
 [{{< fa brands bluesky >}}](https://bsky.app/profile/p-solana.bsky.social){.faculty-icon target="_blank"}

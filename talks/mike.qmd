@@ -1,11 +1,10 @@
 ---
-title: "Lingering habits"
+title: "Prediction and prioritisation: Reward learning modulates automatic attentional priority"
 image: "../images/mike.png"
 author: "Dr. Mike Le Pelley"
 description: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur pellentesque dolor, ut rutrum quam tincidunt id. Aenean eget mollis elit, tincidunt bibendum arcu. Mauris vulputate suscipit ex, sollicitudin vulputate justo euismod mollis. Mauris finibus ex eu magna finibus placerat. In porttitor dui justo, nec elementum ex pulvinar id. Sed malesuada est eu scelerisque imperdiet. Morbi sit amet mauris at ligula commodo mollis ut sed nibh. Morbi sem velit, gravida eget ipsum sed, varius finibus purus. Sed fermentum ac diam sed condimentum. Curabitur pretium tristique nisl, non posuere purus dapibus vel. Vestibulum porta risus non aliquam dictum. Etiam et luctus lacus, ut rhoncus elit. Curabitur cursus urna ut rhoncus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis orci ac ante aliquet pellentesque.
-categories: ["Learning", "Attention"]
-
+  A traditional view of selective attention distinguishes between goal-directed and stimulus-driven mechanisms of attentional control. More recently, a large (and growing) body of research has identified a third class of control system—termed selection history—wherein attentional prioritisation is shaped by our prior experience with stimuli, independently of our goals and the physical salience of those stimuli. In this talk I will examine how prioritisation is rapidly and automatically modulated by learning about the rewards associated with stimuli. These findings provide an analogy to the phenomenon of sign-tracking in nonhuman animals, and are linked to real-world addictive and compulsive behaviours. More generally, such demonstrations of attentional plasticity raise the possibility that motivated behaviour in general—and addiction in particular—can be understood within a “biased competition” framework: different options and outcomes compete for attentional priority, and the winner of this competition becomes the target for subsequent outcome-directed behaviour.
+categories: ["Attention", "Reward", "Selection history"]
 
 format:
   html:
@@ -21,9 +20,10 @@ class: talk-page
 :::: speaker-text
 [Speaker]{.speaker-label}\
 **Dr. Mike Le Pelley**\
-[UNSW Sydney]{.speaker-affiliation}
+[UNSW Sydney, Sydney, Australia]{.speaker-affiliation}
 
-TODO: Short bio for Mike (3–5 sentences).
+Mike Le Pelley is a professor of cognitive psychology at UNSW Sydney in Sydney, Australia. His main research focus explores how attention and learning interact. He completed his PhD and the Sir Alan Wilson Research Fellowship at the University of Cambridge, before moving to Cardiff University, and in 2011 to UNSW as an Australian Research Council Future Fellow. In recent years, he has received grant funding from the Australian Research Council, the National Health and Medical Research Council, and the Australian Department of Defence. He has published around 150 papers and book chapters, and received the Experimental Psychology Society’s Mid-Career Award in 2025.
+
 
 ::: faculty-links
 [{{< ai google-scholar >}}](https://scholar.google.com/citations?user=bLOeqzMAAAAJ&hl=es){.faculty-icon target="_blank"}
