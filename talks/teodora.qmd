@@ -1,10 +1,10 @@
 ---
-title: "Lingering habits"
+title: "Lorem ipsum"
 image: "../images/teodora.png"
 author: "Dr. Teodóra Vekóny"
 description: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur pellentesque dolor, ut rutrum quam tincidunt id. Aenean eget mollis elit, tincidunt bibendum arcu. Mauris vulputate suscipit ex, sollicitudin vulputate justo euismod mollis. Mauris finibus ex eu magna finibus placerat. In porttitor dui justo, nec elementum ex pulvinar id. Sed malesuada est eu scelerisque imperdiet. Morbi sit amet mauris at ligula commodo mollis ut sed nibh. Morbi sem velit, gravida eget ipsum sed, varius finibus purus. Sed fermentum ac diam sed condimentum. Curabitur pretium tristique nisl, non posuere purus dapibus vel. Vestibulum porta risus non aliquam dictum. Etiam et luctus lacus, ut rhoncus elit. Curabitur cursus urna ut rhoncus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis orci ac ante aliquet pellentesque
-categories: ["Learning", "Attention"]
+categories: ["Lorem", "ipsum"]
 
 
 format:

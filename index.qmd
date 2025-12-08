@@ -85,7 +85,7 @@ Below is the provisional schedule for the workshop (all times in **Central Europ
 | Time        | Session                                                      |
 |-------------|--------------------------------------------------------------|
 | 15:00–15:10 | Welcome and introduction                                     |
-| 15:15–15:40 | [Rr. Teódora Vekóny](talks/teodora.qmd)                  |
+| 15:15–15:40 | [Dr. Teódora Vekóny](talks/teodora.qmd)                      |
 | 15:45–16:05 | [Dr. David Luque](talks/david.qmd)                           |
 | 16:10–16:40 | [Dr. Miguel A. Vadillo](talks/miguel.qmd)                    |
 | 16:45–17:45 | [Dr. Mike Le Pelley](talks/mike.qmd)                         |
