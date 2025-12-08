@@ -30,6 +30,7 @@ Mike Le Pelley is a professor of cognitive psychology at UNSW Sydney in Sydney, 
 [{{< ai orcid >}}](https://orcid.org/0000-0002-5145-5502){.faculty-icon target="_blank"}
 [{{< fa brands bluesky >}}](https://bsky.app/profile/mikelepelley.bsky.social){.faculty-icon target="_blank"}
 [{{< fa solid globe >}}](https://research.unsw.edu.au/people/professor-mike-le-pelley){.faculty-icon target="_blank"}
+:::
 ::::
 :::::
 ::::::

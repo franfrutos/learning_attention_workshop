@@ -717,3 +717,104 @@ footer.footer a:hover,
   margin-bottom: 0.7rem;
 }
 
+/* ========================= */
+/* Programme table           */
+/* ========================= */
+
+.programme {
+  max-width: 820px;
+  margin: 2rem auto 2.8rem;
+  font-size: 0.95rem;
+}
+
+/* Caja de la tabla */
+.programme table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  background: #ffffff;
+  border-radius: 0.9rem;
+  overflow: hidden;
+
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  margin-bottom: 3rem;
+}
+
+/* Cabecera */
+.programme thead th {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.7rem 1.1rem;
+  text-align: left;
+
+  background: #fff6f4;
+  color: #888;
+  border-bottom: 1px solid #f1e2df;
+}
+
+/* Celdas */
+.programme tbody td {
+  padding: 0.7rem 1.1rem;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+/* Columna de hora algo más estrecha */
+.programme tbody td:first-child {
+  width: 7rem;
+  white-space: nowrap;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Filas alternas y hover suave */
+.programme tbody tr:nth-child(even) {
+  background: #fffaf8;
+}
+
+.programme tbody tr:hover {
+  background: #fff3f0;
+}
+
+/* Nota bajo la tabla (el párrafo que tienes) */
+.programme p {
+  margin-top: 0.9rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Versión dark para que no cante */
+body.quarto-dark .programme table {
+  background: #181b1f;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.7);
+}
+
+body.quarto-dark .programme thead th {
+  background: #20242b;
+  color: #c8c8d2;
+  border-bottom: 1px solid #343a46;
+}
+
+body.quarto-dark .programme tbody td {
+  border-bottom: 1px solid #2b3038;
+}
+
+body.quarto-dark .programme tbody tr:nth-child(even) {
+  background: #20242b;
+}
+
+body.quarto-dark .programme tbody tr:hover {
+  background: #252a33;
+}
+
+body.quarto-dark .programme tbody td:first-child {
+  color: #e5e5f0;
+}
+
+body.quarto-dark .programme p {
+  color: #c0c4cc;
+}
+
+

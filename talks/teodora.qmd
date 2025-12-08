@@ -3,7 +3,7 @@ title: "Lingering habits"
 image: "../images/teodora.png"
 author: "Dr. Teodóra Vekóny"
 description: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur pellentesque dolor, ut rutrum quam tincidunt id. Aenean eget mollis elit, tincidunt bibendum arcu. Mauris vulputate suscipit ex, sollicitudin vulputate justo euismod mollis. Mauris finibus ex eu magna finibus placerat. In porttitor dui justo, nec elementum ex pulvinar id. Sed malesuada est eu scelerisque imperdiet. Morbi sit amet mauris at ligula commodo mollis ut sed nibh. Morbi sem velit, gravida eget ipsum sed, varius finibus purus. Sed fermentum ac diam sed condimentum. Curabitur pretium tristique nisl, non posuere purus dapibus vel. Vestibulum porta risus non aliquam dictum. Etiam et luctus lacus, ut rhoncus elit. Curabitur cursus urna ut rhoncus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis orci ac ante aliquet pellentesque.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur pellentesque dolor, ut rutrum quam tincidunt id. Aenean eget mollis elit, tincidunt bibendum arcu. Mauris vulputate suscipit ex, sollicitudin vulputate justo euismod mollis. Mauris finibus ex eu magna finibus placerat. In porttitor dui justo, nec elementum ex pulvinar id. Sed malesuada est eu scelerisque imperdiet. Morbi sit amet mauris at ligula commodo mollis ut sed nibh. Morbi sem velit, gravida eget ipsum sed, varius finibus purus. Sed fermentum ac diam sed condimentum. Curabitur pretium tristique nisl, non posuere purus dapibus vel. Vestibulum porta risus non aliquam dictum. Etiam et luctus lacus, ut rhoncus elit. Curabitur cursus urna ut rhoncus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis orci ac ante aliquet pellentesque
 categories: ["Learning", "Attention"]
 
 
@@ -23,12 +23,13 @@ class: talk-page
 **Dr. Teodóra Vekóny**\
 [University of the Middle Atlantic]{.speaker-affiliation}
 
-TODO: Short bio for Teódora (3–5 sentences).
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur pellentesque dolor, ut rutrum quam tincidunt id. Aenean eget mollis elit, tincidunt bibendum arcu. Mauris vulputate suscipit ex, sollicitudin vulputate justo euismod mollis. Mauris finibus ex eu magna finibus placerat. In porttitor dui justo, nec elementum ex pulvinar id. Sed malesuada est eu scelerisque imperdiet. Morbi sit amet mauris at ligula commodo mollis ut sed nibh. Morbi sem velit, gravida eget ipsum sed, varius finibus purus. Sed fermentum ac diam sed condimentum. Curabitur pretium tristique nisl, non posuere purus dapibus vel. Vestibulum porta risus non aliquam dictum. Etiam et luctus lacus, ut rhoncus elit. Curabitur cursus urna ut rhoncus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis orci ac ante aliquet pellentesque
 
 ::: faculty-links
 [{{< ai google-scholar >}}](https://scholar.google.hu/citations?user=ODmrF0MAAAAJ&hl=fr){.faculty-icon target="_blank"}
 [{{< ai orcid >}}](https://orcid.org/0000-0002-8620-5685){.faculty-icon target="_blank"}
 [{{< fa solid globe >}}](https://teodoravekony.com/){.faculty-icon target="_blank"}
+:::
 ::::
 :::::
 ::::::

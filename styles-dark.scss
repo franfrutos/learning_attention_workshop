@@ -609,3 +609,75 @@ footer.footer a:hover,
 .venue-info ul {
   margin-bottom: 0.7rem;
 }
+
+/* ========================= */
+/* Programme table           */
+/* ========================= */
+
+.programme {
+  max-width: 820px;
+  margin: 2rem auto 2.8rem;
+  font-size: 0.95rem;
+}
+
+/* Caja de la tabla (modo oscuro) */
+.programme table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  background: #181b1f;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.7);
+  border-radius: 0.9rem;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+/* Cabecera */
+.programme thead th {
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.7rem 1.1rem;
+  text-align: left;
+
+  background: #111827;
+  color: #e5e7eb;
+  border-bottom: 1px solid #343a46;
+}
+
+/* Celdas */
+.programme tbody td {
+  padding: 0.7rem 1.1rem;
+  border-bottom: 1px solid #2b3038;
+  color: #e5e7eb;           /* texto claro en todas las celdas */
+}
+
+/* Columna de hora algo más estrecha */
+.programme tbody td:first-child {
+  width: 7rem;
+  white-space: nowrap;
+  font-weight: 600;
+  color: #f9fafb;           /* un pelín más clara para destacar la hora */
+}
+
+/* Filas alternas y hover suave */
+.programme tbody tr:nth-child(odd) {
+  background: #181b1f;
+}
+
+.programme tbody tr:nth-child(even) {
+  background: #20242b;
+}
+
+.programme tbody tr:hover {
+  background: #252a33;
+}
+
+/* Nota bajo la tabla */
+.programme p {
+  margin-top: 0.9rem;
+  font-size: 0.9rem;
+  color: #c0c4cc;
+}

@@ -12,9 +12,13 @@ website:
         text: About
       - href: index.qmd#speakers
         text: Talks
+      - href: index.qmd#programme
+        text: Programme
       - href: index.qmd#inscripcion
         text: Registration
       - href: index.qmd#faculty
+        text: Venue
+      - href: index.qmd#venue
         text: Organizers
   page-footer:  
     left: >-
