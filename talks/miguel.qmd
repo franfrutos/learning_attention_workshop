@@ -1,10 +1,10 @@
 ---
-title: "Lorem ipsum"
+title: "No free lunch: Visual statistical learning depends on selective attention and possibly on working memory resources as well"
 image: "../images/miguel.png"
 author: "Dr. Miguel A. Vadillo"
 description: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur pellentesque dolor, ut rutrum quam tincidunt id. Aenean eget mollis elit, tincidunt bibendum arcu. Mauris vulputate suscipit ex, sollicitudin vulputate justo euismod mollis. Mauris finibus ex eu magna finibus placerat. In porttitor dui justo, nec elementum ex pulvinar id. Sed malesuada est eu scelerisque imperdiet. Morbi sit amet mauris at ligula commodo mollis ut sed nibh. Morbi sem velit, gravida eget ipsum sed, varius finibus purus. Sed fermentum ac diam sed condimentum. Curabitur pretium tristique nisl, non posuere purus dapibus vel. Vestibulum porta risus non aliquam dictum. Etiam et luctus lacus, ut rhoncus elit. Curabitur cursus urna ut rhoncus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis orci ac ante aliquet pellentesque.
-categories: ["Lorem", "ipsum"]
+  Visual statistical learning is often seen as an automatic process, largely independent from explicit knowledge and attentional resources. Consistent with this view, several influential studies show that contextual cueing, a particularly popular visual statistical learning effect, can take place without participants' paying attention to the stimuli that drive performance. On closer inspection, though, this evidence looks much weaker than previously thought. Research conducted in our lab suggests that, despite our best efforts to distract participants while they are conducting the task, residual attention still spills over to stimuli participants are asked to ignore. Similarly, young participants seem to have very little problem in handling complex tasks with concurrent working memory load. Given this evidence, it is not surprising that contextual cueing often survives distraction and working memory load. Visual statistical learning might be far less automatic than it is assumed.
+categories: ["Statistical Learning", "Automaticity"]
 
 
 format:
@@ -22,7 +22,7 @@ class: talk-page
 **Dr. Miguel A. Vadillo**\
 [Autonomous University of Madrid, Madrid, Spain]{.speaker-affiliation}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur pellentesque dolor, ut rutrum quam tincidunt id. Aenean eget mollis elit, tincidunt bibendum arcu. Mauris vulputate suscipit ex, sollicitudin vulputate justo euismod mollis. Mauris finibus ex eu magna finibus placerat. In porttitor dui justo, nec elementum ex pulvinar id. Sed malesuada est eu scelerisque imperdiet. Morbi sit amet mauris at ligula commodo mollis ut sed nibh. Morbi sem velit, gravida eget ipsum sed, varius finibus purus. Sed fermentum ac diam sed condimentum. Curabitur pretium tristique nisl, non posuere purus dapibus vel. Vestibulum porta risus non aliquam dictum. Etiam et luctus lacus, ut rhoncus elit. Curabitur cursus urna ut rhoncus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis orci ac ante aliquet pellentesque
+Miguel Vadillo is an associate professor at Universidad Autónoma de Madrid, where he leads the [Cognition, Attention, and Learning Lab](https://calluam.wordpress.com/). His main interests include implicit learning and unconscious cognition. He is also interested in meta-analytic methods and meta-research. He has received funding regularly from the National Research Agency since he returned to Spain in 2016. Previously, he has been a lecturer at the University of Deusto and King's College London, and a postdoctoral researcher at UCL.
 
 ::: faculty-links
 [{{< ai google-scholar >}}](https://scholar.google.com/citations?hl=en&user=5nMeyZQAAAAJ&view_op=list_works&pagesize=100){.faculty-icon target="_blank"}
