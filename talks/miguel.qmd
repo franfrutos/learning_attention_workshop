@@ -4,7 +4,7 @@ image: "../images/miguel.png"
 author: "Dr. Miguel A. Vadillo"
 description: |
   Visual statistical learning is often seen as an automatic process, largely independent from explicit knowledge and attentional resources. Consistent with this view, several influential studies show that contextual cueing, a particularly popular visual statistical learning effect, can take place without participants' paying attention to the stimuli that drive performance. On closer inspection, though, this evidence looks much weaker than previously thought. Research conducted in our lab suggests that, despite our best efforts to distract participants while they are conducting the task, residual attention still spills over to stimuli participants are asked to ignore. Similarly, young participants seem to have very little problem in handling complex tasks with concurrent working memory load. Given this evidence, it is not surprising that contextual cueing often survives distraction and working memory load. Visual statistical learning might be far less automatic than it is assumed.
-categories: ["Statistical Learning", "Automaticity"]
+categories: ["Visual Statistical Learning", "Automaticity"]
 
 
 format:

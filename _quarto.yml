@@ -1,5 +1,5 @@
 project:
-  title: "Workshop on Learning and Attention"
+  title: "I CIMCYC Workshop on Learning and Attention"
   type: website
   output-dir: docs
 
@@ -16,10 +16,11 @@ website:
         text: Programme
       - href: index.qmd#inscripcion
         text: Registration
-      - href: index.qmd#faculty
-        text: Venue
       - href: index.qmd#venue
+        text: Venue
+      - href: index.qmd#faculty
         text: Organizers
+
   page-footer:  
     left: >-
       &#169; 2025, Francisco Garre-Frutos

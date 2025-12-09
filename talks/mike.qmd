@@ -4,7 +4,7 @@ image: "../images/mike.png"
 author: "Dr. Mike Le Pelley"
 description: |
   A traditional view of selective attention distinguishes between goal-directed and stimulus-driven mechanisms of attentional control. More recently, a large (and growing) body of research has identified a third class of control system—termed selection history—wherein attentional prioritisation is shaped by our prior experience with stimuli, independently of our goals and the physical salience of those stimuli. In this talk I will examine how prioritisation is rapidly and automatically modulated by learning about the rewards associated with stimuli. These findings provide an analogy to the phenomenon of sign-tracking in nonhuman animals, and are linked to real-world addictive and compulsive behaviours. More generally, such demonstrations of attentional plasticity raise the possibility that motivated behaviour in general—and addiction in particular—can be understood within a “biased competition” framework: different options and outcomes compete for attentional priority, and the winner of this competition becomes the target for subsequent outcome-directed behaviour.
-categories: ["Attention", "Reward", "Selection history"]
+categories: ["Visual attention", "Reward learning"]
 
 format:
   html:

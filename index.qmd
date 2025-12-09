@@ -19,12 +19,12 @@ listing:
 ::: {.hero-seminario}
 ::: {.hero-inner .container}
 
-# Workshop on Learning and Attention {.hero-title}
+# I CIMCYC Workshop on Learning and Attention {.hero-title}
 
 <span class="hero-kicker">Advanced workshop</span>
 
 <p class="hero-subtitle">
-  17 December 2025 · 15:00–18:00 · Conference room 1 |Mind, Brain, and Behavior Research Center (CIMCYC)
+  17 December 2025 · 15:00–18:00 · Conference room 1 | Mind, Brain, and Behavior Research Center (CIMCYC)
 </p>
 
 <p class="hero-buttons">
