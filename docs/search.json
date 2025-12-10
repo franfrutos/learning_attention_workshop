@@ -25,7 +25,7 @@
     "href": "index.html#programme",
     "title": "Home",
     "section": "Programme",
-    "text": "Programme\n\nBelow is the provisional schedule for the workshop (all times in Central European Time).\n\n\n\nTime\nSession\n\n\n\n\n15:00–15:10\nWelcome and introduction\n\n\n15:10–15:40\nDr. Teódora Vekóny\n\n\n15:40–16:10\nDr. David Luque\n\n\n16:10-16:30\nCoffee break\n\n\n16:30-17:00\nDr. Miguel A. Vadillo\n\n\n17:00–18:00\nDr. Mike Le Pelley"
+    "text": "Programme\n\nBelow is the provisional schedule for the workshop (all times in Central European Time).\n\n\n\nTime\nSession\n\n\n\n\n15:00–15:10\nWelcome and introduction\n\n\n15:10–15:40\nDr. Teódora Vékony\n\n\n15:40–16:10\nDr. David Luque\n\n\n16:10-16:30\nCoffee break\n\n\n16:30-17:00\nDr. Miguel A. Vadillo\n\n\n17:00–18:00\nDr. Mike Le Pelley"
   },
   {
     "objectID": "index.html#inscripcion",
@@ -47,5 +47,33 @@
     "title": "Home",
     "section": "Organizers",
     "text": "Organizers\n\n\n\n\nFrancisco Garre-Frutos\nUniversity of Granada\n\n    \n\n\n\n\n\n\nPablo Solana\nUniversity of Granada\n\n    \n\n\n\n\n\n\nJuan Lupiáñez\nUniversity of Granada"
+  },
+  {
+    "objectID": "talks/mike.html",
+    "href": "talks/mike.html",
+    "title": "Prediction and prioritisation: Reward learning modulates automatic attentional priority",
+    "section": "",
+    "text": "Speaker\nDr. Mike Le Pelley\nUNSW Sydney, Sydney, Australia\nMike Le Pelley is a professor of cognitive psychology at UNSW Sydney in Sydney, Australia. His main research focus explores how attention and learning interact. He completed his PhD and the Sir Alan Wilson Research Fellowship at the University of Cambridge, before moving to Cardiff University, and in 2011 to UNSW as an Australian Research Council Future Fellow. In recent years, he has received grant funding from the Australian Research Council, the National Health and Medical Research Council, and the Australian Department of Defence. He has published around 150 papers and book chapters, and received the Experimental Psychology Society’s Mid-Career Award in 2025."
+  },
+  {
+    "objectID": "talks/david.html",
+    "href": "talks/david.html",
+    "title": "Experimentally investigating the formation of human habits: It is hard, but we are getting there",
+    "section": "",
+    "text": "Speaker\nDr. David Luque\nUniversity of Málaga, Málaga, Spain\nDavid Luque is “Profesor Titular” (Senior Lecturer) at the department of basic Psychology, Universidad de Málaga. His research interests are related to how humans learn new habits and how/when habits interfere with goal-directed actions and attention. He has pioneered in the use of a range of techniques and dependent variables (Response Time, EEG, eye gaze) for studying the habit system. Dr Luque has been 3 years working as a Senior Researcher Fellow at UNSW Sydney (Australia, 2013), and 4 years at Universidad Autónoma de Madrid (Researcher Attraction Grant, 2018). He has attracted more than €1M in funding for research as PI, from the Australian Research Council, the AEI, and the Research Agencies from the region of Madrid and Andalusia. His research has been published in prestigious journals (Journal of Experimental Psychology: General; Journal of Neuroscience; eLife). Dr Luque is very involved in Open Science. All the experiments coming from his research team are preregistered; all data, materials, and analysis code are openly shared (320 entris in OSF). He has been awarded with the “Preregistration Challenge Prize” (Center for Open Science, 2017) and the Team Credibility Prize for being a part of the #EEGManyLabs project (British Neuroscience Association, 2023)."
+  },
+  {
+    "objectID": "talks/miguel.html",
+    "href": "talks/miguel.html",
+    "title": "No free lunch: Visual statistical learning depends on selective attention and possibly on working memory resources as well",
+    "section": "",
+    "text": "Speaker\nDr. Miguel A. Vadillo\nAutonomous University of Madrid, Madrid, Spain\nMiguel Vadillo is an associate professor at Universidad Autónoma de Madrid, where he leads the Cognition, Attention, and Learning Lab. His main interests include implicit learning and unconscious cognition. He is also interested in meta-analytic methods and meta-research. He has received funding regularly from the National Research Agency since he returned to Spain in 2016. Previously, he has been a lecturer at the University of Deusto and King’s College London, and a postdoctoral researcher at UCL."
+  },
+  {
+    "objectID": "talks/teodora.html",
+    "href": "talks/teodora.html",
+    "title": "Mind wandering as a modulator of inhibitory control and implicit statistical learning",
+    "section": "",
+    "text": "Speaker\nDr. Teodóra Vékony\nUniversity of the Middle Atlantic\nTeodóra Vékony is a researcher in the fields of cognitive psychology and neuroscience, specializing in the mechanisms of statistical learning and memory. She earned her Ph.D. in clinical and experimental neuroscience from the University of Szeged in 2021. Following her doctoral studies, she completed her postdoctoral fellowships between 2021 and 2023 at the Lyon Neuroscience Research Center (CRNL) in France. Currently, she is based in Spain as a researcher at the Gran Canaria Cognitive Research Center, part of the Universidad del Atlántico Medio (UNAM) in Las Palmas de Gran Canaria. In addition to her research role, she also supervises the cognitive neuroscience research line within the UNAM Psychology Ph.D. school. Her present work is focused on investigating the intricate role of mind wandering in statistical learning and exploring its underlying neural mechanisms."
   }
 ]
