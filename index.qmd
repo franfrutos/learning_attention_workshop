@@ -53,8 +53,8 @@ The programme combines
 [Professor Mike Le Pelley](talks/mike.qmd), covering topics such as:
 
 - Learning and attention in humans  
-- The automatically of visual statistical learning
-- Experimental research in human habits
+- The automaticity of visual statistical learning
+- Experimental research of human habits
 - The role of mind wandering in implicit statistical learning
 
 The event is **in person**, free of charge, and especially intended for:
@@ -62,7 +62,7 @@ The event is **in person**, free of charge, and especially intended for:
 - Master’s and PhD students in psychology, cognitive science, and related areas  
 - Early-career researchers interested in attention, learning, and decision making 
 
-Participants who register via the [registration form](#inscripcion)
+Participants who register via the [registration form](#inscripcion), and attend the talks,
 will receive a **certificate of attendance**.
 
 :::
@@ -86,11 +86,11 @@ Below is the provisional schedule for the workshop (all times in **Central Europ
 | Time        | Session                                                      |
 |-------------|--------------------------------------------------------------|
 | 15:00–15:10 | Welcome and introduction                                     |
-| 15:15–15:40 | [Dr. Teódora Vekóny](talks/teodora.qmd)                      |
-| 15:45–16:05 | [Dr. David Luque](talks/david.qmd)                           |
-| 16:10–16:40 | [Dr. Miguel A. Vadillo](talks/miguel.qmd)                    |
-| 16:45–17:45 | [Dr. Mike Le Pelley](talks/mike.qmd)                         |
-| 17:45–18:00 | Concluding remarks                                           |
+| 15:10–15:40 | [Dr. Teódora Vekóny](talks/teodora.qmd)                      |
+| 15:40–16:10 | [Dr. David Luque](talks/david.qmd)                           |
+| 16:10-16:30 | Coffee break                                                 |
+| 16:30-17:00 | [Dr. Miguel A. Vadillo](talks/miguel.qmd)                    |
+| 17:00–18:00 | [Dr. Mike Le Pelley](talks/mike.qmd)                         |
 
 :::
 
@@ -188,6 +188,25 @@ workshop [organizers](#faculty).
 [{{< ai orcid >}}](https://orcid.org/0000-0003-3088-3548){.faculty-icon target="_blank"}
 [{{< fa brands bluesky >}}](https://bsky.app/profile/p-solana.bsky.social){.faculty-icon target="_blank"}
 [{{< fa solid globe >}}](https://groundedcognitionlab.weebly.com/pablo-solana.html){.faculty-icon target="_blank"}
+</div>
+
+</div>
+:::
+
+::: faculty-card
+![](images/faculty-juan.png){.faculty-photo}
+
+<div class="faculty-info">
+
+**Juan Lupiáñez**  
+<span class="faculty-affiliation">University of Granada</span>
+
+<div class="faculty-links">
+[{{< fa solid envelope >}}](mailto:jlupiane@ugr.es?subject=Learning%20and%20Attention%20Workshop){.faculty-icon}
+[{{< ai google-scholar >}}](https://scholar.google.es/citations?user=cBUtlc8AAAAJ&hl=es){.faculty-icon target="_blank"}
+[{{< ai orcid >}}](https://orcid.org/0000-0001-6157-9894){.faculty-icon target="_blank"}
+[{{< fa brands bluesky >}}](https://bsky.app/profile/jlupiane.bsky.social){.faculty-icon target="_blank"}
+[{{< fa solid globe >}}](https://www.ugr.es/personal/juan-lupianez-castillo){.faculty-icon target="_blank"}
 </div>
 
 </div>
