@@ -53,8 +53,9 @@ The programme combines
 [Professor Mike Le Pelley](talks/mike.qmd), covering topics such as:
 
 - Learning and attention in humans  
-- Habit formation and goal-directed control  
-- Experimental methods for studying cognitive processes  
+- The automatically of visual statistical learning
+- Experimental research in human habits
+- The role of mind wandering in implicit statistical learning
 
 The event is **in person**, free of charge, and especially intended for:
 

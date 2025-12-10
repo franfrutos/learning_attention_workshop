@@ -1,10 +1,10 @@
 ---
-title: "Lorem ipsum"
+title: "Mind wandering as a modulator of inhibitory control and implicit statistical learning"
 image: "../images/teodora.png"
 author: "Dr. Teodóra Vekóny"
 description: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur pellentesque dolor, ut rutrum quam tincidunt id. Aenean eget mollis elit, tincidunt bibendum arcu. Mauris vulputate suscipit ex, sollicitudin vulputate justo euismod mollis. Mauris finibus ex eu magna finibus placerat. In porttitor dui justo, nec elementum ex pulvinar id. Sed malesuada est eu scelerisque imperdiet. Morbi sit amet mauris at ligula commodo mollis ut sed nibh. Morbi sem velit, gravida eget ipsum sed, varius finibus purus. Sed fermentum ac diam sed condimentum. Curabitur pretium tristique nisl, non posuere purus dapibus vel. Vestibulum porta risus non aliquam dictum. Etiam et luctus lacus, ut rhoncus elit. Curabitur cursus urna ut rhoncus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis orci ac ante aliquet pellentesque
-categories: ["Lorem", "ipsum"]
+  Mind wandering (MW) is often regarded as a state of mind associated with impaired cognitive performance, yet recent studies suggest it plays a surprising, adaptive role in statistical learning, the implicit acquisition of environmental regularities. Our prior work established that periods of MW are associated with enhanced statistical learning outcomes and identified a plausible neural mechanism, demonstrating that both efficient statistical learning and increased MW are linked to local slow waves in the waking brain. Building upon this foundation, our latest study directly addresses the complex interplay between MW, inhibitory control (a core attentional function), and statistical learning using a novel visuomotor task. We report a clear functional dissociation: increased MW simultaneously impairs inhibitory control but remarkably facilitates statistical learning. Crucially, the relationship between MW and statistical learning efficiency is shown to be significantly modulated by inhibitory control performance. These findings provide a compelling framework that directly links off-task thought to the dynamics of learning and attention, highlighting MW's essential and multifaceted role in predictive cognition and challenging the purely detrimental view of MW.
+categories: ["Mind Wandering", "Statistical Learning"]
 
 
 format:
@@ -23,7 +23,7 @@ class: talk-page
 **Dr. Teodóra Vekóny**\
 [University of the Middle Atlantic]{.speaker-affiliation}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consectetur pellentesque dolor, ut rutrum quam tincidunt id. Aenean eget mollis elit, tincidunt bibendum arcu. Mauris vulputate suscipit ex, sollicitudin vulputate justo euismod mollis. Mauris finibus ex eu magna finibus placerat. In porttitor dui justo, nec elementum ex pulvinar id. Sed malesuada est eu scelerisque imperdiet. Morbi sit amet mauris at ligula commodo mollis ut sed nibh. Morbi sem velit, gravida eget ipsum sed, varius finibus purus. Sed fermentum ac diam sed condimentum. Curabitur pretium tristique nisl, non posuere purus dapibus vel. Vestibulum porta risus non aliquam dictum. Etiam et luctus lacus, ut rhoncus elit. Curabitur cursus urna ut rhoncus suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed quis orci ac ante aliquet pellentesque
+Teodóra Vékony is a researcher in the fields of cognitive psychology and neuroscience, specializing in the mechanisms of statistical learning and memory. She earned her Ph.D. in clinical and experimental neuroscience from the University of Szeged in 2021. Following her doctoral studies, she completed her postdoctoral fellowships between 2021 and 2023 at the Lyon Neuroscience Research Center (CRNL) in France. Currently, she is based in Spain as a researcher at the Gran Canaria Cognitive Research Center, part of the Universidad del Atlántico Medio (UNAM) in Las Palmas de Gran Canaria. In addition to her research role, she also supervises the cognitive neuroscience research line within the UNAM Psychology Ph.D. school. Her present work is focused on investigating the intricate role of mind wandering in statistical learning and exploring its underlying neural mechanisms.
 
 ::: faculty-links
 [{{< ai google-scholar >}}](https://scholar.google.hu/citations?user=ODmrF0MAAAAJ&hl=fr){.faculty-icon target="_blank"}

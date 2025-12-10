@@ -6,6 +6,7 @@ project:
 website:
   favicon: "images/icon.png"
   search: false
+  description: "The I CIMCYC workshop on Learning and Attention offers an afternoon of talks and discussion on how learning and attention shape human cognition and behavior. The aim is to bring together students and researchers interested in these topics and to provide an accessible but research-oriented overview of current work in the field."
   navbar:
     left:
       - href: index.qmd#seminario
