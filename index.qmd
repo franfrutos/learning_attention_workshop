@@ -19,7 +19,7 @@ listing:
 ::: {.hero-seminario}
 ::: {.hero-inner .container}
 
-# I CIMCYC Workshop on Learning and Attention {.hero-title}
+# CIMCYC Workshop on Learning and Attention {.hero-title}
 
 <span class="hero-kicker">Advanced workshop</span>
 
